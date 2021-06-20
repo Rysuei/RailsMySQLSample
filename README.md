@@ -3,9 +3,13 @@
 2.createDBandApp.batを実行  
  1を選択した場合、サンプルアプリは任意で作成できます。  
  --以下実行例--  
+ コンテナに入る  
  docker-compose exec web bash  
+ サンプルアプリの簡易作成 rails g scaffold 見出し 項目名1:型 項目名2:型...  
  rails g scaffold Member Name:string Sex:string  
+ DBマイグレーション  
  rails db:migrate  
+ サーバ起動  
  rails s -b 0.0.0.0  
  
 3.localhost:3000、localhost:3000/membersにアクセス  
