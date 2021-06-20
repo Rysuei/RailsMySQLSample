@@ -8,4 +8,5 @@
  rails db:migrate  
  rails s -b 0.0.0.0  
  
-3.localhost:3000、localhost:3000/membersにアクセス
+3.localhost:3000、localhost:3000/membersにアクセス  
+/membersはrails g scaffoldコマンドで決めたサンプルアプリの見出し（Member）とリンク
